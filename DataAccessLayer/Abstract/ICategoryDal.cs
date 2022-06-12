@@ -9,10 +9,11 @@ namespace DataAccessLayer.Abstract
 {
     public interface ICategoryDal : IRepository<Category>
     {
-        //CRUD
-        List<Category> List();
-        void Insert(Category p);
-        void Update(Category p);
-        void Delete(Category p);
+
+        ////CRUD
+        //List<Category> List();
+        //void Insert(Category p);
+        //void Update(Category p);
+        //void Delete(Category p);
     }
 }
